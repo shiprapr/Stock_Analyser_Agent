@@ -1,0 +1,21 @@
+venv/   
+.env    
+_pycache_/ 
+*.pyc
+*.pyo
+*.pyd
+
+# | Line           | Meaning                      |
+# | -------------- | ---------------------------- |
+# | `venv/`        | Ignore virtual environment   |
+# | `.env`         | Ignore secret API keys       |
+# | `__pycache__/` | Ignore Python cache          |
+# | `*.pyc`        | Ignore compiled Python files |
+
+
+# | File Type | Similar To               |
+# | --------- | ------------------------ |
+# | `.py`     | Source code              |
+# | `.pyc`    | Compiled cache           |
+# | `.pyo`    | Optimized compiled cache |
+# | `.pyd`    | Python DLL/extension     |
